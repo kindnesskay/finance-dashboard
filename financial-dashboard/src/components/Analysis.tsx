@@ -1,8 +1,6 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Expenses_data, Income_data } from "../constants/transaction_data";
 import ChartContainer from "./ChartContainer";
-import category_data from "../constants/category_data";
-import CategoryCard from "./cards/CategoryCard";
 
 export default function Analysis() {
   const [transactionType, setTransactionType] = useState("Income");
